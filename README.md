@@ -1,3 +1,7 @@
+React-forms is created to show how to validate that no field is empty in a form.
+Also validates that email includes @ as an example. This could be adapted and used in any project.
+Created by Jonas Brolin Hjortsberg 2020
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

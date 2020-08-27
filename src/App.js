@@ -15,7 +15,7 @@ function App() {
       [event.target.name]: event.target.value,
     }));
     // validate input
-    if ((formValues.firstName !=='') && (formValues.lastName !=='') && (formValues.email !=='')) {
+    if ((formValues.firstName !=='') && (formValues.lastName !=='') && (formValues.email.includes('@'))) {
       setShowSubmit('true');
     }
   };
